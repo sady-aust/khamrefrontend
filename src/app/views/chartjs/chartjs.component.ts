@@ -104,7 +104,7 @@ export class ChartJSComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
-      this.cattleId = params['cattleid']
+      this.cattleId = params['cattleid'];
       setInterval(()=>{
 
         let currentData;

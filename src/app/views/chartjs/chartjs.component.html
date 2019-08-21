@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col-lg-1"></div>
   <div class="col-lg-3">
-    <div class="card" *ngIf="currentTemperature">
+    <div class="card" *ngIf="currentTime">
       <div class="card-header" style="text-align: center">
 
         <h4 >{{currentTime}}</h4>
@@ -32,7 +32,7 @@
       </div>
 
       <div class="card-footer" style="text-align: center">
-        <h4>Current Temperature</h4>
+        <h4>Current Temp (&#8451;)</h4>
       </div>
     </div>
   </div>
@@ -41,7 +41,7 @@
   <div class="col-lg-2"></div>
   <div class="card" style="height: 60%;width: 60%">
     <div class="card-header">
-      Live Feed
+      Live Activity Monitor
       <div class="card-header-actions">
         <a href="http://www.chartjs.org">
           <small class="text-muted">docs</small>
